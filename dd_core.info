@@ -25,7 +25,9 @@ files[] = dd_core.profile
 ; Contrib
 ;
 
-; Add contrib dependencies here.
+dependencies[] = admin_menu
+dependencies[] = breakpoints
+dependencies[] = picture
 
 ;
 ; Panopoly Modules
@@ -47,16 +49,10 @@ dependencies[] = panopoly_wysiwyg
 
 ; Panopoly Recommended - Admin & UI
 dependencies[] = backports
-;[STARTERKIT_RECOMMENDED]dependencies[] = breakpoints
 dependencies[] = date_popup_authored
 dependencies[] = module_filter
-;[STARTERKIT_RECOMMENDED]dependencies[] = navbar
 dependencies[] = save_draft
-;[STARTERKIT_RECOMMENDED]dependencies[] = simplified_menu_admin
-;[STARTERKIT_RECOMMENDED]dependencies[] = views_ui
 
 ; Panopoly Recommended - Other
-;[STARTERKIT_RECOMMENDED]dependencies[] = apps
-;[STARTERKIT_RECOMMENDED]dependencies[] = defaultcontent
 dependencies[] = devel
 dependencies[] = uuid

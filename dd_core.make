@@ -8,6 +8,10 @@
 api = 2
 core = 7.x
 
+projects[picture][version] = 1.2
+projects[picture][subdir] = contrib
+
+
 ; The Panopoly Foundation
 projects[panopoly_core][version] = 1.0
 projects[panopoly_core][subdir] = panopoly
