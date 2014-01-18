@@ -1,0 +1,17 @@
+name = Drupl Danmark settings
+description = The base settings for Drupal Danmark
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = panopoly_admin_advanced_plugins
+features[variable][] = panopoly_admin_front_page_and_sticky
+features[variable][] = panopoly_admin_link_description
+features[variable][] = panopoly_admin_machine_name
+features[variable][] = panopoly_magic_live_preview
+features[variable][] = panopoly_magic_pane_add_preview
+features[variable][] = panopoly_magic_show_panels_styles
+features[variable][] = panopoly_magic_strip_js_from_preview
+project path = profiles/dd_core/modules
