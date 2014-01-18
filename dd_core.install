@@ -1,0 +1,11 @@
+<?php
+/**
+ * @file dd_core.install
+ * Install, update and uninstall functions.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function dd_core_install(){
+}

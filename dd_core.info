@@ -1,0 +1,62 @@
+; Packaging information for dd_core
+name = DrupalDanmark
+distribution_name = "dd_core"
+description = "DrupalDanmark base profile"
+version = "7.x-1.x"
+core = "7.x"
+exclusive = 1
+
+base[] = panopoly
+
+files[] = dd_core.install
+files[] = dd_core.profile
+
+; ------------
+; Dependencies
+; ------------
+
+;
+; Core
+;
+
+; Add core dependencies here.
+
+;
+; Contrib
+;
+
+; Add contrib dependencies here.
+
+;
+; Panopoly Modules
+;
+
+; Panopoly Foundation
+dependencies[] = panopoly_core
+dependencies[] = panopoly_images
+dependencies[] = panopoly_theme
+dependencies[] = panopoly_magic
+dependencies[] = panopoly_widgets
+dependencies[] = panopoly_admin
+dependencies[] = panopoly_users
+
+; Panopoly Toolset
+dependencies[] = panopoly_pages
+dependencies[] = panopoly_search
+dependencies[] = panopoly_wysiwyg
+
+; Panopoly Recommended - Admin & UI
+dependencies[] = backports
+;[STARTERKIT_RECOMMENDED]dependencies[] = breakpoints
+dependencies[] = date_popup_authored
+dependencies[] = module_filter
+;[STARTERKIT_RECOMMENDED]dependencies[] = navbar
+dependencies[] = save_draft
+;[STARTERKIT_RECOMMENDED]dependencies[] = simplified_menu_admin
+;[STARTERKIT_RECOMMENDED]dependencies[] = views_ui
+
+; Panopoly Recommended - Other
+;[STARTERKIT_RECOMMENDED]dependencies[] = apps
+;[STARTERKIT_RECOMMENDED]dependencies[] = defaultcontent
+dependencies[] = devel
+dependencies[] = uuid
