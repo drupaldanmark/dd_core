@@ -19,7 +19,7 @@ files[] = dd_core.profile
 ; Core
 ;
 
-; Add core dependencies here.
+dependencies[] = dd_settings
 
 ;
 ; Contrib
@@ -31,8 +31,12 @@ dependencies[] = admin_menu_toolbar
 dependencies[] = contextual
 dependencies[] = markdown
 
+; Media and other image stuff
 dependencies[] = breakpoints
 dependencies[] = picture
+
+; User related modules
+dependencies[] = user_picture_default
 
 ;
 ; Panopoly Modules
