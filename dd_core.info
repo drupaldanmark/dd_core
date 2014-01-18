@@ -29,6 +29,7 @@ files[] = dd_core.profile
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = contextual
+dependencies[] = markdown
 
 dependencies[] = breakpoints
 dependencies[] = picture
