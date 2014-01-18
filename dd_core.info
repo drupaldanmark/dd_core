@@ -25,7 +25,11 @@ files[] = dd_core.profile
 ; Contrib
 ;
 
+; Admin goodies
 dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = contextual
+
 dependencies[] = breakpoints
 dependencies[] = picture
 
@@ -54,5 +58,10 @@ dependencies[] = module_filter
 dependencies[] = save_draft
 
 ; Panopoly Recommended - Other
-dependencies[] = devel
 dependencies[] = uuid
+
+; For Development purposes (can/should be disabled later)
+dependencies[] = devel
+dependencies[] = field_ui
+dependencies[] = views_ui
+
