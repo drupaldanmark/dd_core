@@ -10,6 +10,8 @@ core = 7.x
 
 projects[picture][version] = 1.2
 projects[picture][subdir] = contrib
+projects[markdown][version] = 1.2
+projects[markdown][subdir] = contrib
 
 
 ; The Panopoly Foundation
