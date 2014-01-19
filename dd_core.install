@@ -19,3 +19,10 @@ function dd_core_update_7001() {
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', 1);
 }
+
+/**
+ * Enable panels_everywhere
+ */
+function dd_core_update_7002() {
+  module_enable(array('panels_everywhere'), TRUE);
+}

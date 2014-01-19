@@ -14,6 +14,8 @@ projects[markdown][version] = 1.2
 projects[markdown][subdir] = contrib
 projects[user_picture_default][version] = 1.0-beta1
 projects[user_picture_default][subdir] = contrib
+projects[panels_everywhere][version] = 1.0-rc1
+projects[panels_everywhere][subdir] = contrib
 
 ; The Panopoly Foundation
 projects[panopoly_core][version] = 1.0

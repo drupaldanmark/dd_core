@@ -38,6 +38,9 @@ dependencies[] = picture
 ; User related modules
 dependencies[] = user_picture_default
 
+; General
+dependencies[] = panels_everywhere
+
 ;
 ; Panopoly Modules
 ;
