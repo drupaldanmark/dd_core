@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Drupal Danmark members feature.
+ */
+
+include_once 'dd_members.features.inc';
