@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Drupal Danmark Media feature.
+ */
+
+include_once 'dd_media.features.inc';
