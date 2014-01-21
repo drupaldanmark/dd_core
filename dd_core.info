@@ -20,6 +20,7 @@ files[] = dd_core.profile
 ;
 
 dependencies[] = dd_settings
+dependencies[] = dd_members
 
 ;
 ; Contrib

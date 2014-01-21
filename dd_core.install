@@ -26,3 +26,10 @@ function dd_core_update_7001() {
 function dd_core_update_7002() {
   module_enable(array('panels_everywhere'), TRUE);
 }
+
+/**
+ * Enable dd_members
+ */
+function dd_core_update_7003() {
+  module_enable(array('dd_members'), TRUE);
+}
